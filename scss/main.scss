@@ -143,6 +143,7 @@ main {
 		padding: 1.5rem 2.5rem;
 		margin-bottom: 3rem;
 		@include easeOut;
+		text-align: center;
 
 		&:hover {
 			padding: 0.5rem 1.5rem;
@@ -185,6 +186,10 @@ main {
 	background: darken($primary-color, 10);
 	color: set-text-color($primary-color);
 	height: 60px;
+
+	span {
+		color: #21c87a;
+	}
 }
 
 @import "mobile";

@@ -89,7 +89,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.jpg);
+    background: url(../img/background5.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -192,7 +192,8 @@ main {
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
-    transition: all 0.5s ease-out; }
+    transition: all 0.5s ease-out;
+    text-align: center; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
       background: #eece1a;
@@ -223,6 +224,8 @@ main {
   background: #2b2b2b;
   color: #fff;
   height: 60px; }
+  #main-footer span {
+    color: #21c87a; }
 
 @media screen and (min-width: 1171px) {
   .projects {

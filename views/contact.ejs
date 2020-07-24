@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Contact Me</title>
-</head>
+<%- include("./partials/header") %>
 <body>
     <header>
         <div class="menu-btn">
@@ -21,25 +13,25 @@
             </div>
             <ul class="menu-nav">
                 <li class="nav-item">
-                    <a href="index.html"
+                    <a href="/"
                     class="nav-link">
                 Home
                 </a>
                 </li>
                 <li class="nav-item">
-                    <a href="about.html"
+                    <a href="/about"
                     class="nav-link">
                 About Me
                 </a>
                 </li>
                 <li class="nav-item">
-                    <a href="work.html"
+                    <a href="/work"
                     class="nav-link">
-                My Work
+                Projects
                 </a>
                 </li>
                 <li class="nav-item current">
-                    <a href="contact.html"
+                    <a href="/contact"
                     class="nav-link">
                 How To Reach Me
                 </a>
@@ -57,8 +49,8 @@
         </h2>
         <div class="boxes">
             <div>
-                <span class="text-secondary">Email:
-                </span>apbeban@gmail.com
+                <a href="mailto: apbeban@gmail.com"><span class="text-secondary">Email:
+                </span>apbeban@gmail.com</a>
             </div>
             <div>
                 <span class="text-secondary">Phone:
@@ -66,16 +58,11 @@
             </div>
             <div>
                 <span class="text-secondary">Address:
-                </span>15 Glenburn Pl, Hamilton NZ
+                </span>15 Glenburn Place, Hamilton, New Zealand 3200
             </div>
         </div>
       
     </main>
 
-    <footer id="main-footer">
-        &copy; Andrew Beban Web Development
-    </footer>
+    <%- include("./partials/footer") %>
 
-    <script src="js/main.js"></script>
-</body>
-</html>
