@@ -25,7 +25,7 @@
                 </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/work"
+                    <a href="/projects"
                     class="nav-link">
                 Projects
                 </a>
@@ -47,21 +47,59 @@
         <h2 class="sm-heading">
             This is how you can reach me...
         </h2>
-        <div class="boxes">
+        
+
+        <div class="contact-form">
             <div>
-                <a href="mailto: apbeban@gmail.com"><span class="text-secondary">Email:
-                </span>apbeban@gmail.com</a>
+              <div class="info">
+                <h3>Andrew Beban</h3>
+                <ul>
+                  <a href="tel:+642102480362"><li><i class="fa fa-phone"></i> 027 8141 659</li></a>
+                  <a href="mailto: apbeban@gmail.com"><li><i class="fa fa-envelope"></i> apbeban@gmail.com</li></a>
+                  <li><i class="fa fa-road"></i> 15 Glenburn Place, Hmailton, New Zealand</li>
+                </ul>
+              </div>
+              <div class="contact">
+                
+                <form class="form-inline" method="POST" action="send">
+                  <p>
+                    <label>Name
+                      <span class="text-danger">*</span>
+                    </label>
+                    <input type="text" name="name" required>
+                  </p>
+                  <p>
+                    <label>Email Address
+                      <span class="text-danger">*</span>
+                    </label>
+                    <input type="email" name="email" required>
+                  </p>
+                  <p>
+                    <label>Subject
+                      <span class="text-danger">*</span>
+                    </label>
+                    <input type="text" name="subject" required>
+                  </p>
+                  <p>
+                    <label>Phone Number
+                      <span class="text-danger">*</span>
+                    </label>
+                    <input type="text" name="phone">
+                  </p>
+                  <p class="full">
+                    <label>Message
+                      <span class="text-danger">*</span>
+                    </label>
+                    <textarea name="message" rows="5" required></textarea>
+                  </p>
+                  <p class="full">
+                    <button type="submit">Submit</button>
+                  </p>
+                </form>
+              </div>
             </div>
-            <div>
-                <span class="text-secondary">Phone:
-                </span>027 8141 659
-            </div>
-            <div>
-                <span class="text-secondary">Address:
-                </span>15 Glenburn Place, Hamilton, New Zealand 3200
-            </div>
-        </div>
-      
+          </div>
+
     </main>
 
     <%- include("./partials/footer") %>
