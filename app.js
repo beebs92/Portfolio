@@ -73,7 +73,7 @@ app.post('/contact', function(req, res, next) {
 
 	// setup email data with unicode symbols
 	let mailOptions = {
-		from: '"Website Contact Form" postmaster@sandbox3531cb9415854cb7b8901cef83521739.mailgun.org', // sender address
+		from: '"Portfolio Contact Form" postmaster@sandbox3531cb9415854cb7b8901cef83521739.mailgun.org', // sender address
 		to: 'apbeban@gmail.com', // list of receivers
 		subject: 'Portfolio Contact Request', // Subject line
 		text: 'Hello world?', // plain text body
