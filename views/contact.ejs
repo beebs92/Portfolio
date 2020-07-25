@@ -1,5 +1,5 @@
 <%- include("./partials/header") %>
-<body>
+
     <header>
         <div class="menu-btn">
             <div class="btn-line"></div>
@@ -45,7 +45,7 @@
             Contact <span class="text-secondary">Me</span>
         </h1>
         <h2 class="sm-heading">
-            This is how you can reach me...
+            Get in touch!
         </h2>
         
 
@@ -59,9 +59,14 @@
                   <li><i class="fa fa-road"></i> 15 Glenburn Place, Hmailton, New Zealand</li>
                 </ul>
               </div>
+              <% if(msg.length > 0) { %>
+                <div class="alert alert-success">
+                   <%= msg %>
+                </div>
+                <% } %>
               <div class="contact">
                 
-                <form class="form-inline" method="POST" action="send">
+                <form class="form-inline" method="POST" action="contact">
                   <p>
                     <label>Name
                       <span class="text-danger">*</span>

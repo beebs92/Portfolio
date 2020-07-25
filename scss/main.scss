@@ -48,6 +48,10 @@ header {
 	color: $secondary-color;
 }
 
+.text-dark {
+	color: set-text-color;
+}
+
 main {
 	padding: 4rem;
 	// height: 100%;
@@ -79,6 +83,7 @@ main {
 	grid-gap: 30px;
 	grid-template-areas: "bioimage bio bio" "job1 job2 job3";
 	grid-template-columns: repeat(3, 1fr);
+	padding-top: 50px;
 
 	.bio-image {
 		grid-area: bioimage;
@@ -210,6 +215,7 @@ ul {
 		padding: 10px;
 		background-color: $primary-color;
 		border: 1px solid $secondary-color;
+		color: #fff;
 	}
 	textarea {
 		vertical-align: middle;
@@ -217,9 +223,16 @@ ul {
 		padding: 10px;
 		background-color: $primary-color;
 		border: 1px solid $secondary-color;
+		color: #fff;
 	}
 	.text-danger {
 		color: red;
+	}
+}
+
+.contact-form {
+	.alert {
+		text-align: left;
 	}
 }
 
@@ -256,15 +269,16 @@ ul {
 }
 
 .contact form button {
-	background: $secondary-color;
-	border: 0;
+	background: $primary-color;
+	border: 1px solid $secondary-color;
 	text-transform: uppercase;
+	color: $secondary-color;
 }
 
 .contact form button:hover,
 .contact form button:focus {
 	background: $secondary-color;
-	color: set-text-color;
+	color: $primary-color;
 	outline: 0;
 	transition: background-color 2s ease-out;
 }
