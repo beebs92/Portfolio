@@ -106,10 +106,10 @@ body {
     background-size: cover; }
     body#bg-img:after {
       content: "";
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
-      width: 100%;
+      width: 100vw;
       height: 100vh;
       z-index: -1; }
 
