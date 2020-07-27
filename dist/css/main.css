@@ -101,7 +101,7 @@ body {
   font-family: 'Rubik', sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background5.jpg);
+    background: url("https://i.imgur.com/torckxp.jpg");
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
