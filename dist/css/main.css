@@ -413,4 +413,6 @@ ul {
     margin: 10px 0; }
   .form-inline {
     flex-direction: column;
-    align-items: stretch; } }
+    align-items: stretch; }
+  .lg-heading {
+    text-align: center; } }
