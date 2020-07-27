@@ -96,7 +96,7 @@
 body {
   background: #444;
   color: #fff;
-  height: 100%;
+  height: 100vh;
   margin: 0;
   font-family: 'Rubik', sans-serif;
   line-height: 1.5; }
