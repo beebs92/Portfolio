@@ -427,6 +427,4 @@ ul {
     margin: 10px 0; }
   .form-inline {
     flex-direction: column;
-    align-items: stretch; }
-  body {
-    height: 120vh; } }
+    align-items: stretch; } }
